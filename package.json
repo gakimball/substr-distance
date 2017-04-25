@@ -1,0 +1,41 @@
+{
+  "name": "substr-distance",
+  "version": "1.0.0",
+  "description": "Get the distance of a substring from the start of a line",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gakimball/substr-distance.git"
+  },
+  "keywords": [
+    "substr",
+    "substring",
+    "string",
+    "distance",
+    "indent"
+  ],
+  "author": "Geoff Kimball <geoff@geoffkimball.com> (http://geoffkimball.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gakimball/substr-distance/issues"
+  },
+  "homepage": "https://github.com/gakimball/substr-distance#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "xo": "^0.18.1"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "xo": {
+    "space": true
+  },
+  "dependencies": {
+    "escape-regex": "^1.0.7",
+    "string-length": "^1.0.1"
+  }
+}
